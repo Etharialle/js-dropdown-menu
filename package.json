@@ -1,12 +1,26 @@
 {
-  "name": "js-dropdown-menu",
-  "version": "1.0.0",
+  "name": "@etharialle/js-dropdown-menu",
+  "version": "1.0.2",
   "description": "simple js module for dropdown menus",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Etharialle/js-dropdown-menu.git"
+  },
+  "files": [
+    "./*.css"
+  ],
+  "keywords": [
+    "Etharialle",
+    "dropdown menu"
+  ],
   "author": "Etharialle",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@etharialle/js-dropdown-menu": "^1.0.0"
+  }
 }
